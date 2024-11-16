@@ -26,7 +26,7 @@ public class StudentController {
 
         //impt method to convert from Date() to String or Long
         Date date = new Date();
-        SimpleDateFormat dateformatter = new SimpleDateFormat("dd MM yyyy HH:mm:ss:SSSS zzz");
+        //SimpleDateFormat dateformatter = new SimpleDateFormat("dd MM yyyy HH:mm:ss:SSSS zzz");
         //String stringDate = dateformatter.format(date);
         Long longDate = date.getTime();
 
